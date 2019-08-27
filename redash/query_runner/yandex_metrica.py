@@ -91,7 +91,7 @@ class YandexMetrica(BaseSQLQueryRunner):
     def __init__(self, configuration):
         super(YandexMetrica, self).__init__(configuration)
         self.syntax = 'yaml'
-        self.host = 'https://api-metrica.yandex.com'
+        self.host = 'https://api-metrica.yandex.net'
         self.list_path = 'counters'
 
     def _get_tables(self, schema):
